@@ -1,13 +1,13 @@
 interface Props {
   numero: String;
-  largura: number;
-  altura: number;
+  largura: string;
+  altura: string;
 }
 
 export function Tecla(props: Props) {
   return (
     <div
-      className={`overflow-hidden bg-white rounded flex justify-center content-center flex-col text-center col-span-${props.largura} row-span-${props.altura}`}
+      className={`overflow-hidden bg-white rounded flex justify-center content-center flex-col text-center ${props.largura} ${props.altura}`}
     >
       <button className="h-full w-full text-4xl font-bold">
         {props.numero}
