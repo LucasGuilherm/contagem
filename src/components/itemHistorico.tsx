@@ -1,6 +1,6 @@
 interface Props {
   codigo: number;
-  produto: string;
+  produto: String;
   qtde: number;
 }
 export function ItemHistor(props: Props) {

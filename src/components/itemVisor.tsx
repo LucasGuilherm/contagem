@@ -1,9 +1,9 @@
 interface Props2 {
-  valor: string;
-  label: string;
-  largura: string;
-  customStyle?: string;
-  fontSize?: string;
+  valor?: String;
+  label: String;
+  largura: String;
+  customStyle?: String;
+  fontSize?: String;
 }
 
 export function ItemVisor(props: Props2) {
